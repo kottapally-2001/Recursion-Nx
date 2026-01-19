@@ -1,5 +1,1 @@
-{
-  "buildCommand": "npx nx build web",
-  "outputDirectory": "dist/apps/web",
-  "framework": "nextjs"
-}
+{ "framework": "nextjs" }

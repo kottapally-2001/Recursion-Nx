@@ -1,0 +1,11 @@
+{
+  "sourceRoot": "apps/web/src",
+  "targets": {
+    "serve": {
+      "executor": "nx:run-script",
+      "options": {
+        "script": "dev"
+      }
+    }
+  }
+}

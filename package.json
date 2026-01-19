@@ -1,0 +1,13 @@
+{
+  "name": "algos-nx",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "api": "npx nx serve api",
+    "web": "npx nx serve web"
+  },
+  "devDependencies": {
+    "nx": "latest"
+  },
+  "dependencies": {}
+}

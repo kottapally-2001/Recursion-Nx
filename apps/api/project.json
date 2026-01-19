@@ -1,0 +1,11 @@
+{
+  "sourceRoot": "apps/api/src",
+  "targets": {
+    "serve": {
+      "executor": "nx:run-script",
+      "options": {
+        "script": "start"
+      }
+    }
+  }
+}

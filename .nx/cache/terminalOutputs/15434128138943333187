@@ -1,0 +1,38 @@
+
+> dev
+> next dev
+
+[33m[1m⚠[22m[39m Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\saicharan.k\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\saicharan.k\Downloads\nx-final-clean\apps\web\package-lock.json
+   * C:\Users\saicharan.k\Downloads\nx-final-clean\package-lock.json
+
+[1m[38;2;173;127;168m▲ Next.js 16.1.3[39m[22m (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.94:3000
+
+[32m[1m✓[22m[39m Starting...
+[32m[1m✓[22m[39m Ready in 1016ms
+ GET / [32m200[39m in 654ms[2m (compile: 352ms, render: 302ms)[22m
+ GET / [32m200[39m in 93ms[2m (compile: 7ms, render: 86ms)[22m
+[32m[1m✓[22m[39m Compiled in 556ms
+[31m[1m⨯[22m[39m Error: The default export is not a React Component in "/layout"
+    at [3mignore-listed frames[23m
+[31m[1m⨯[22m[39m Error: The default export is not a React Component in "/layout"
+    at [3mignore-listed frames[23m {
+  page: [32m'/'[39m
+}
+ GET / [31m500[39m in 1868ms[2m (compile: 1624ms, render: 245ms)[22m
+[31m[1m⨯[22m[39m Error: The default export is not a React Component in "/layout"
+    at [3mignore-listed frames[23m
+[31m[1m⨯[22m[39m Error: The default export is not a React Component in "/layout"
+    at [3mignore-listed frames[23m {
+  page: [32m'/'[39m
+}
+ GET / [31m500[39m in 673ms[2m (compile: 654ms, render: 19ms)[22m
+[32m[1m✓[22m[39m Compiled in 23ms
+ GET / [32m200[39m in 276ms[2m (compile: 96ms, render: 181ms)[22m
+^C
